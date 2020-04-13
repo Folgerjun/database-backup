@@ -108,6 +108,7 @@ echo /=====begin backup data at [%dt%] data======/
 rem 创建文件夹
 if not exist %FolderName% md %FolderName%
 if not exist %logDir% md %logDir%
+if not exist %zipDir% md %zipDir%
 
 echo start backup...
 setlocal enabledelayedexpansion rem 延迟变量
